@@ -1,0 +1,84 @@
+@import "tailwindcss";
+
+@layer base {
+  html,
+  body,
+  #root {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    font-family: 'Plus Jakarta Sans', system-ui, -apple-system, sans-serif;
+  }
+}
+
+.font-display {
+  font-family: 'Chakra Petch', system-ui, sans-serif;
+}
+
+.font-mono-hud {
+  font-family: 'JetBrains Mono', ui-monospace, monospace;
+  font-variant-numeric: tabular-nums;
+}
+
+.pixelated {
+  image-rendering: pixelated;
+  image-rendering: crisp-edges;
+}
+
+/* Classic bevelled voxel slot button */
+.mc-slot {
+  background: rgba(20, 22, 20, 0.78);
+  border-top: 2px solid rgba(10, 12, 10, 0.9);
+  border-left: 2px solid rgba(10, 12, 10, 0.9);
+  border-right: 2px solid rgba(255, 255, 255, 0.22);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.22);
+}
+
+.mc-slot-active {
+  background: rgba(45, 55, 42, 0.92);
+  border: 2px solid #ffffff;
+  box-shadow: 0 0 0 2px rgba(0, 0, 0, 0.65);
+}
+
+.mc-panel {
+  background: #222622;
+  border-top: 2px solid rgba(255, 255, 255, 0.2);
+  border-left: 2px solid rgba(255, 255, 255, 0.2);
+  border-right: 2px solid rgba(0, 0, 0, 0.7);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.7);
+}
+
+.mc-button {
+  background: #4e564d;
+  border-top: 2px solid rgba(255, 255, 255, 0.28);
+  border-left: 2px solid rgba(255, 255, 255, 0.28);
+  border-right: 2px solid rgba(0, 0, 0, 0.65);
+  border-bottom: 2px solid rgba(0, 0, 0, 0.65);
+  transition: transform 80ms ease, background-color 120ms ease;
+}
+
+.mc-button:hover {
+  background: #5d685c;
+}
+
+.mc-button:active {
+  transform: translateY(1px);
+  border-top: 2px solid rgba(0, 0, 0, 0.65);
+  border-left: 2px solid rgba(0, 0, 0, 0.65);
+  border-right: 2px solid rgba(255, 255, 255, 0.25);
+  border-bottom: 2px solid rgba(255, 255, 255, 0.25);
+}
+
+.mc-button-primary {
+  background: #3d7a37;
+  border-top: 2px solid #6cc25f;
+  border-left: 2px solid #6cc25f;
+  border-right: 2px solid #1e421b;
+  border-bottom: 2px solid #1e421b;
+}
+
+.mc-button-primary:hover {
+  background: #488e41;
+}

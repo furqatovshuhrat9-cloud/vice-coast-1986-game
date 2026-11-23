@@ -1,0 +1,21 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512">
+  <rect width="512" height="512" rx="96" fill="#182218" />
+  <g transform="translate(86, 86) scale(1.33)">
+    <!-- Isometric-style Grass Cube -->
+    <polygon points="128,16 236,74 128,132 20,74" fill="#63ab3f" />
+    <polygon points="128,16 182,45 128,74 74,45" fill="#74be4e" />
+    <!-- Left Dirt Face -->
+    <polygon points="20,74 128,132 128,240 20,182" fill="#865d3d" />
+    <!-- Left Grass Lip -->
+    <polygon points="20,74 128,132 128,158 100,143 100,154 74,140 74,129 46,114 46,126 20,112" fill="#529233" />
+    <!-- Right Dirt Face (shaded) -->
+    <polygon points="236,74 128,132 128,240 236,182" fill="#6d4a2f" />
+    <!-- Right Grass Lip -->
+    <polygon points="236,74 128,132 128,158 156,143 156,154 184,139 184,128 210,114 210,126 236,112" fill="#467c2b" />
+    <!-- Pixel highlights -->
+    <rect x="48" y="150" width="16" height="16" fill="#6f4c30" />
+    <rect x="86" y="176" width="16" height="16" fill="#9a6e4b" />
+    <rect x="164" y="160" width="16" height="16" fill="#5b3d26" />
+    <rect x="192" y="138" width="16" height="16" fill="#7d5638" />
+  </g>
+</svg>
